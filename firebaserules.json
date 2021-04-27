@@ -4,7 +4,7 @@
       ".write": "now < 1616558400000",  // 2021-3-24
         "meals":{
       ".read": true, //anyone can read
-      ".write": "auth.uid != null", // need to be logged in to write
+      ".write": "auth.uid != null" // need to be logged in to write
     }
     }
   }
